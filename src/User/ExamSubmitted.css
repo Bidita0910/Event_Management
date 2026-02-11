@@ -1,0 +1,56 @@
+.submitted-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6fb;
+}
+
+.submitted-card {
+  background: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 420px;
+}
+
+.success-icon {
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.submitted-card h2 {
+  color: #6a11cb;
+  margin-bottom: 15px;
+}
+
+.submitted-card p {
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.note {
+  font-size: 14px;
+  color: #888;
+}
+
+.dashboard-btn {
+  margin-top: 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}

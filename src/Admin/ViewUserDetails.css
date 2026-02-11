@@ -1,0 +1,59 @@
+.view-details-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.view-details-card {
+  background: white;
+  width: 700px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.view-details-card h2 {
+  text-align: center;
+  color: #6a11cb;
+  margin-bottom: 25px;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.detail-item {
+  background: #f4f5ff;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+.label {
+  display: block;
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+
+.back-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}

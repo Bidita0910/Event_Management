@@ -1,0 +1,90 @@
+.assessments-container {
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #6a11cb;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Grid layout */
+.exam-list,
+.exam-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+/* Exam card */
+.exam-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 22px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-top: 4px solid #6a11cb;
+}
+
+.exam-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.15);
+}
+
+.exam-card h3 {
+  color: #6a11cb;
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.exam-card p {
+  margin: 6px 0;
+  color: #444;
+  font-size: 14px;
+}
+
+/* Buttons */
+.exam-card button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Start exam */
+.exam-card button:not(.disabled) {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.exam-card button:not(.disabled):hover {
+  opacity: 0.95;
+}
+
+/* Attempted / disabled */
+.exam-card .disabled {
+  background: #d3d3d3;
+  color: #666;
+  cursor: not-allowed;
+}
+
+/* Empty state */
+.empty {
+  text-align: center;
+  color: #666;
+  margin-top: 40px;
+  font-size: 15px;
+}
+
+/* Loading text */
+.loading {
+  text-align: center;
+  color: #555;
+  font-size: 15px;
+}

@@ -1,0 +1,158 @@
+/* ===== PAGE CONTAINER ===== */
+
+.start-exam-container {
+  /* min-height: 100vh; */
+  padding: 30px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== HEADER ===== */
+
+.exam-header {
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  border-radius: 14px;
+  padding: 18px 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.exam-header h2 {
+  color: #6a11cb;
+  margin: 0;
+}
+
+.timer {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* ===== QUESTION CARD ===== */
+
+.question-card {
+  width: 90%;
+  max-width: 900px;
+  background: white;
+  border-radius: 14px;
+  padding: 25px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.question-card h3 {
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* ===== OPTIONS ===== */
+
+.option {
+  display: flex;
+  align-items: center;
+  background: #f6f7fb;
+  padding: 12px 14px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.option:hover {
+  background: #eef0ff;
+}
+
+.option input {
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.option span {
+  color: #333;
+  font-weight: 500;
+}
+
+/* ===== NAVIGATION BUTTONS ===== */
+
+.navigation {
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navigation button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Previous Button */
+.navigation button:first-child {
+  background: #ccc;
+  color: #333;
+}
+
+.navigation button:first-child:hover {
+  background: #b5b5b5;
+}
+
+/* Next Button */
+.navigation button:last-child {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.navigation button:last-child:hover {
+  opacity: 0.9;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #28a745 !important;
+  color: white !important;
+}
+
+.submit-btn:hover {
+  background: #218838 !important;
+}
+
+.option.correct {
+  background: #d4edda;
+  border: 1px solid #28a745;
+}
+
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .exam-header {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navigation button {
+    width: 100%;
+  }
+}

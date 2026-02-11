@@ -1,0 +1,123 @@
+.profile-container {
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.profile-card {
+  background: white;
+  width: 800px;
+  height: 560px;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.profile-card h2 {
+  text-align: center;
+  color: #6a11cb;
+  margin-bottom: 30px;
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.field label {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.field input:disabled {
+  background: #f1f1f1;
+  color: #777;
+  cursor: not-allowed;
+}
+
+.save-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-btn {
+  margin-top: 30px;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #ff6fd8, #7b2ff7);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.correction-btn {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #ff4d6d, #ff758f);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.correction-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correction-card {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 15px;
+}
+
+.correction-card input,
+.correction-card select,
+.correction-card textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+.save-btn:hover, .edit-btn:hover {
+  background: linear-gradient(90deg, #2575fc, #6a11cb);
+}

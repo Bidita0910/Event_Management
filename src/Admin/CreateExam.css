@@ -1,0 +1,46 @@
+.create-exam-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.create-exam-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.create-exam-card h2 {
+  text-align: center;
+  color: #6a0dad;
+  margin-bottom: 20px;
+}
+
+.exam-form {
+  display: grid;
+  gap: 12px;
+}
+
+.exam-form input,
+.exam-form select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.exam-form button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6a0dad, #ff4ecd);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.exam-form button:hover {
+  background: linear-gradient(135deg, #340361, #c907ac);
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* ===== Page Background ===== */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb, #ff2fa4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===== White Floating Card ===== */
+.home-container {
+  width: 100%;              /* wider */
+  max-width: 2000px;       /* increases white area */
+  min-height: 90vh;        /* taller */
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 25px 70px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+
+/* ===== Navbar ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 70px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 16px;
+  color: #8a2be2;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.nav-items li {
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+}
+
+.nav-btn {
+  background: linear-gradient(135deg, #ff2fa4, #ff5ec4);
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 18px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* ===== Hero Section ===== */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 10px 35px;
+}
+
+/* Left Content */
+.hero-left {
+  max-width: 580px;
+  margin-right: 10%;
+}
+
+.hero-left h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #8a2be2;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10%;
+  margin-bottom: 32px;
+}
+
+.hero-btn {
+  background: linear-gradient(135deg, #ff2fa4, #ff5ec4);
+  color: white;
+  border: none;
+  padding: 13px 34px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Right Illustration */
+.hero-right img {
+  width: 600px;
+  max-width: 1000px;
+  margin-right: 50px;
+  margin-left: 2px;
+  margin-top: 50px;
+}

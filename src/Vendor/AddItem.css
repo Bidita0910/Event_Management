@@ -1,0 +1,62 @@
+.additem-container {
+  display: flex;
+  gap: 30px;
+}
+
+/* LEFT FORM */
+.additem-form {
+  width: 300px;
+  background: #4f74b6;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.additem-form input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.additem-form button {
+  padding: 10px;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* RIGHT TABLE */
+.additem-table {
+  flex: 1;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: #4f74b6;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.table-row {
+  background: #5c82c7;
+}
+
+.table-row img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.action-btns button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.view-questions-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.view-questions-card {
+  background: #fff;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+  border-radius: 16px;
+  padding: 25px;
+}
+
+.questions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.questions-table th {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 10px;
+}
+
+.questions-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.questions-table textarea,
+.questions-table input,
+.questions-table select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+}
+
+.actions button {
+  margin: 4px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #ffd166;
+}
+
+.save-btn {
+  background: #06d6a0;
+  color: white;
+}
+
+.delete-btn {
+  background: #ef476f;
+  color: white;
+}
+
+.close-btn {
+  margin-top: 15px;
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,109 @@
+/* Full Page Background */
+.vendor-dashboard-container {
+  width: 100%;
+  background: linear-gradient(135deg, #6a11cb, #ff3cac);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main Dashboard Layout */
+.vendor-dashboard-wrapper {
+  width: 95%;
+  max-width: 1200px;
+  height: 85vh;
+  display: flex;
+  background: transparent;
+  gap: 20px;
+}
+
+/* LEFT SIDEBAR */
+.vendor-sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, #5f2c82, #49a09d);
+  border-radius: 15px;
+  padding: 25px 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Vendor Info Box */
+.vendor-info {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.vendor-info h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.vendor-info p {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* Sidebar Buttons */
+.vendor-menu button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: none;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.vendor-menu button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Active Button */
+.vendor-menu .active {
+  background: linear-gradient(135deg, #ff3cac, #784ba0);
+}
+
+/* Logout Button */
+.vendor-logout {
+  margin-top: 20px;
+}
+
+.vendor-logout button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #2c2c7a;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vendor-logout button:hover {
+  background: #1b1b5c;
+}
+
+/* RIGHT CONTENT AREA */
+.vendor-content {
+  flex: 1;
+  background: #f5f6fa;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Content Heading */
+.vendor-content h2 {
+  margin-bottom: 20px;
+  color: #333;
+}

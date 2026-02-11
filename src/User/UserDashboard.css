@@ -1,0 +1,83 @@
+/* ===== CONTAINER ===== */
+.dashboard-container {
+  display: flex;
+  /* height: 100vh; */
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #7b2ff7, #f107a3);
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 300px;
+  background: linear-gradient(180deg, #6a11cb, #2575fc);
+  color: #fff;
+  padding: 25px 20px;
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== USER INFO ===== */
+.user-info {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.user-info p {
+  margin-top: 6px;
+  font-size: 14px;
+  opacity: 0.9;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+/* ===== MENU ===== */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.menu li:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.menu .active {
+  background: linear-gradient(90deg, #ff5acd, #ff85b3);
+  font-weight: 600;
+}
+
+.menu .logout {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+  .main-content {
+  flex: 1;
+  background: #f7f8fc;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+}

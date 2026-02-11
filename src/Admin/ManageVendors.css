@@ -1,0 +1,66 @@
+.manage-vendors-container {
+  padding: 30px;
+}
+
+.title {
+  text-align: center;
+  color: #6a11cb;
+  margin-bottom: 20px;
+}
+
+.vendors-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.vendors-table th,
+.vendors-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.vendors-table th {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  color: white;
+}
+
+.actions button {
+  margin: 0 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.approve-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.edit-btn {
+  background: #ffb300;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.status.approved {
+  background: #e0f7e9;
+  color: #1e8e3e;
+}
+
+.status.pending {
+  background: #fdecea;
+  color: #d93025;
+}

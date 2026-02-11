@@ -1,0 +1,98 @@
+.dashboard-container {
+  display: flex;
+  height: 92vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #6e1bf3, #f107a3);
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  width: 270px;
+  background: linear-gradient(180deg, #5d0cb4, #2575fc);
+  color: #fff;
+  padding: 20px 15px;
+  box-shadow: 4px 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+/* ===== USER INFO ===== */
+.user-info {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.user-info p {
+  margin: 6px 0;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.admin-badge {
+  display: inline-block;
+  margin-top: 3px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #f618b3, #ff85b3);
+  border-radius: 10px;
+}
+
+/* ===== MENU ===== */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  padding: 14px 16px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.menu li:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.menu .active {
+  background: linear-gradient(90deg, #ff5acd, #ff85b3);
+  font-weight: 600;
+}
+
+.menu .logout {
+  margin-top: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main-content {
+  flex: 1;
+  background: #f7f8fc;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 100px;
+  display: flex;
+  align-items: flex-start;   
+  justify-content: center; 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  overflow-y: auto;
+}
+.main-content h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  justify-content: center;
+}
