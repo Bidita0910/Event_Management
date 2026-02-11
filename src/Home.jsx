@@ -32,7 +32,7 @@ const Home = () => {
         <div className="hero-left">
           <h1>
             Event <br />
-            Management
+            Management System
           </h1>
 
           <p>
